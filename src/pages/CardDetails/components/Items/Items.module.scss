@@ -1,0 +1,19 @@
+.itens {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.headerItens {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.list_Itens {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid black;
+}

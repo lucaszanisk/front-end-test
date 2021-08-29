@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Header } from './components/Header/Header';
 import { Orders } from './pages/Orders/Orders';
+import CardDetails from './pages/CardDetails/CardDetails';
 
 const queryClient = new QueryClient();
 
@@ -16,8 +17,8 @@ function App() {
           <Route exact path="/">
             <Orders />
           </Route>
-          <Route exact path="/order/:id">
-            <h1>@todo: Implement detail page</h1>
+          <Route exact path="/order/:id" >
+            <CardDetails />
           </Route>
         </Switch>
       </QueryClientProvider>
